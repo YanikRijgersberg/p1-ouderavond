@@ -18,7 +18,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    background: #00a8c7;
+    background: darkgrey;
     justify-content: space-between;
   }
   nav ul {
