@@ -37,6 +37,35 @@
   nav img {
     width: 5vw;
   }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 20vw;
+    z-index: 1;
+    /* box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,2); */
+    z-index: 1;
+  }
+  
+  .dropdown-content a{
+    padding: 0.8rem 1rem;
+    display: block;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .dropdown-content a:hover{
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropbtn{
+    color: #000000;
+    background-color: white;
+  }
+  
+  .dropdown:hover .dropdown-content{  
+    display: block;
+  }
   .kobus{
     font-size: xx-large;
 
