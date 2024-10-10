@@ -76,8 +76,8 @@ nav img {
 }
   
 .dropdown:hover .dropbtn{
-  color: #000000;
-  background-color: white;
+  color: #c5c5c5;
+  background-color: #006445;
 }
   
 .dropdown:hover .dropdown-content{  
