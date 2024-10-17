@@ -16,6 +16,7 @@ nav {
   margin: auto;
   background-color: #006445;
   justify-content: space-between;
+  position: sticky;
 }
 
 h1{
