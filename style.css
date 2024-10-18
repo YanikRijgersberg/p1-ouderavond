@@ -118,8 +118,10 @@ font-weight: bold;
 
 }
 
-
-.school-img{
-/* position: fixed; */
-
+.school_img{
+background-image: url(/p1-ouderavond/img/school.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+margin-top: 8rem;
 }
