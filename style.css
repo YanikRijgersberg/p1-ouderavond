@@ -16,10 +16,17 @@ nav {
   margin: auto;
   background-color: #006445;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  right: 0;
 }
 
-h1{
+header {
+  padding-top: 10vh;
+}
+
+h1 {
   font-size: 4rem;
 }
 
@@ -87,6 +94,8 @@ nav img {
 
 .gedicht{
   font-size: 1.8rem;
+  font-weight: bold;
+  align-self: flex-end;
 } 
 
  .voorstel{
@@ -96,9 +105,21 @@ nav img {
 .img_kobus{
   width: 20%; 
   height: auto;
+  float: right;
 }
 
 .img_yanik{
   width: 20rem;
   height: auto ;
+}
+.Receptie{
+font-weight: bold;
+
+
+}
+
+
+.school-img{
+/* position: fixed; */
+
 }
