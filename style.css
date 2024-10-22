@@ -106,6 +106,7 @@ nav img {
   width: 20%; 
   height: auto;
   float: right;
+ flex-wrap: wrap-reverse;
 }
 
 .img_yanik{
@@ -120,7 +121,7 @@ font-weight: bold;
 
 .school_img{
 background-image: url(/p1-ouderavond/img/school.jpg);
-background-size: cover;
+background-size: ;
 background-repeat: no-repeat;
 height: 100vh;
 margin-top: 8rem;
