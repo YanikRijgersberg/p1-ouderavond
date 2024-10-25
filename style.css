@@ -127,5 +127,9 @@ height: 100vh;
 margin-top: 8rem;
 }
 .auditoriumVideo{
-  height: 200px;
+  height: 400px;
+  width: auto;
+}
+.auditorium{
+  font-weight: bold;
 }
