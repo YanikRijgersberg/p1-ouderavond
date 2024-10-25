@@ -121,8 +121,11 @@ font-weight: bold;
 
 .school_img{
 background-image: url(/p1-ouderavond/img/school.jpg);
-background-size: ;
+background-size: cover;
 background-repeat: no-repeat;
 height: 100vh;
 margin-top: 8rem;
+}
+.auditoriumVideo{
+  height: 200px;
 }
