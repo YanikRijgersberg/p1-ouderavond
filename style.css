@@ -100,6 +100,9 @@ nav img {
 
  .voorstel{
   font-size: 1.8rem;
+  padding-top: 5rem;
+  align-items: end;
+  font-weight: bold;
 }
 
 .img_kobus{
