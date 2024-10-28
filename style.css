@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
+ 
 }
 
 nav {
@@ -23,7 +24,7 @@ nav {
 }
 
 header {
-  
+  padding-top: 9rem;
 }
 
 h1 {
@@ -138,4 +139,10 @@ margin-top: 8rem;
 }
 .tabel{
   font-size: 7rem;
+}
+.sm{
+  font-weight: bold;
+}
+.kluisje{
+  font-weight: bold;
 }
