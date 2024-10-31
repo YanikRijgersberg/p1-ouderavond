@@ -123,13 +123,13 @@ font-weight: bold;
 
 }
 
-.school_img{
+/* .school_img{
 background-image: url(/p1-ouderavond/img/school.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 height: 100vh;
 margin-top: 8rem;
-}
+} */
 .auditoriumVideo{
   height: 400px;
   width: auto;
@@ -146,3 +146,12 @@ margin-top: 8rem;
 .kluisje{
   font-weight: bold;
 }
+/* .box{
+  padding-top: 7rem;
+  width: 2rem; 
+  height: 200px; 
+  background-color:green; 
+  border: 2px solid green; 
+  padding: 10px; 
+  position: absolute; 
+} */
