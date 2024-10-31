@@ -106,6 +106,7 @@ nav img {
   width: 20%; 
   height: auto;
   float: right;
+ flex-wrap: wrap-reverse;
 }
 
 .img_yanik{
@@ -124,4 +125,7 @@ background-size: cover;
 background-repeat: no-repeat;
 height: 100vh;
 margin-top: 8rem;
+}
+.auditoriumVideo{
+  height: 200px;
 }
