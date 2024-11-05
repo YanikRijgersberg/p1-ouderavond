@@ -286,3 +286,8 @@ li {
 .f-text{
   padding-left: 1rem;
 }
+.edu-img{
+  width: 700px;
+  height: auto;
+  float: right;
+}
