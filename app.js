@@ -8,7 +8,7 @@ function search() {
         window.location.href = 'faciliteiten.html' 
     } else if (query==='eduarte') {
         window.location.href = 'eduwarte.html' 
-    } else if (query==='examnplan') {
+    } else if (query==='examenplan') {
         window.location.href = 'examenplan.html' 
     } else if (query==='gedragscode') { 
         window.location.href = 'Gedragscode.html' 
