@@ -4,13 +4,16 @@
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
- 
+}
+
+html {
+  overflow-x: hidden;
 }
 
 nav {
   display: flex;
   width: 100%;
-  padding: 2.5rem;
+  padding: 1rem;
   min-height: 10vh;
   align-items: center;
   flex-wrap: wrap;
@@ -39,7 +42,7 @@ footer{
 } */
 
 header {
-  padding-top: 9rem;
+  padding-top: 10rem;
 }
 
 h1 {
@@ -65,8 +68,10 @@ nav ul {
 }
 
 nav li {
+  margin-left: 10px;
   font-size: 2.5rem;
-  padding: 0 4rem 0 4rem;
+  padding: 0 2rem 0 2rem;
+  
 }
 
 nav a {
@@ -76,6 +81,46 @@ nav a {
 
 nav img {
   width: 5vw;
+}
+
+.sidebar {
+  height: 100vh; 
+  width: 200px; 
+  background-color: #B0BD36; 
+  color: white; 
+  position: fixed; 
+  padding: 20px; 
+
+}
+
+.sidebar h2 {
+  margin-top: 0; 
+}
+
+.sidebar ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.sidebar ul li {
+  margin: 15px 0; 
+  color: white; 
+  font-size: 35px;
+  
+}
+
+.sidebar ul li a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline; 
+}
+
+.content {
+  margin-left: 260px; 
+  padding: 20px; 
 }
 
 .dropdown-content{
@@ -138,16 +183,18 @@ font-weight: bold;
 
 }
 
-/* .school_img{
+.school_img{
 background-image: url(/p1-ouderavond/img/school.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 height: 100vh;
-margin-top: 8rem;
-} */
+/* margin-top: 8rem; */
+}
 .auditoriumVideo{
   height: 400px;
   width: auto;
+  border: #000000;
+  border-radius: 10px;
 }
 .auditorium{
   font-weight: bold;
@@ -176,3 +223,71 @@ margin-top: 8rem;
   float: right;
 
  }
+ .img-home{
+  height: auto;
+  width: 80px;
+ }
+ .search-container {
+  display: flex; 
+  flex-wrap:wrap ;
+  
+  justify-content: right;
+  margin-top: 20px; 
+}
+
+.search-input {
+  padding: 10px; 
+  width: 300px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 10px 15px; 
+  margin-left: 10px;
+  background-color: #B0BD36; 
+  ;
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+#sidemap-links{
+  padding-left: 225px;
+}
+.headerclass{
+  font-size: 90px;
+}
+.mainclass1{
+  margin-top: 30px;
+}
+.contactgegevens{
+  flex-wrap: wrap;
+  align-self: flex-end;
+
+  float: right;
+}
+.homenav{
+  margin-left: 20vw;
+  /* flex-wrap: wrap; */
+ /* align-content: space-between; */
+ align-items: center;
+ width: 100%;
+ display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+.f-text{
+  padding-left: 1rem;
+}
+.edu-img{
+  width: 700px;
+  height: auto;
+  float: right;
+}
